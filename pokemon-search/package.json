@@ -4,9 +4,14 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "type-check": "tsc"
+    "type-check": "tsc",
+    "lint": "./node_modules/.bin/eslint"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "@mui/material": "^5.9.3",
+    "eslint": "^8.21.0",
     "next": "latest",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
